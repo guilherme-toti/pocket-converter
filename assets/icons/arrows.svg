@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="22px" viewBox="0 0 40 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Exchange</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Visual" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage" transform="translate(-164.000000, -384.000000)" fill-rule="nonzero">
+            <g id="Card" transform="translate(40.000000, 243.000000)">
+                <g id="Exchange" transform="translate(124.000000, 141.000000)">
+                    <polygon id="Path" fill="#3629B7" points="9.414 18.172 15.414 12.172 16.828 13.586 8.414 22 -1.42108547e-14 13.586 1.414 12.172 7.414 18.172 7.414 0.586 9.414 0.586"></polygon>
+                    <polygon id="Path" fill="#FF4267" points="30.586 3.828 24.586 9.828 23.172 8.414 31.586 -1.13686838e-13 40 8.414 38.586 9.828 32.586 3.828 32.586 21.414 30.586 21.414"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
