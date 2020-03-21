@@ -4,15 +4,19 @@ import {
   TouchableOpacity,
   StyleSheet,
   ActivityIndicator,
+  Clipboard,
+  Text,
 } from 'react-native';
 import _ from 'lodash'
-import { TextInputMask } from 'react-native-masked-text'
+import { TextInputMask, TextMask } from 'react-native-masked-text'
 import RNPickerSelect from 'react-native-picker-select'
 
 import { usePreferencesContext } from '../context/preferences'
-import { addZeroes } from '../helpers/utils'
+import { addZeroes, strPad } from '../helpers/utils'
 import { CURRENCY_LABEL } from '../const/labels'
 import Arrows from '../assets/icons/arrows.svg'
+
+const FORMAT_DATE = date => `${strPad(date.getDate())}/${strPad(date.getMonth() + 1)}/${date.getFullYear()} às ${strPad(date.getHours())}:${strPad(date.getMinutes())}`
 
 const PICKER_STYLE = {
   viewContainer: {
@@ -37,7 +41,7 @@ const MASK_OPTIONS = {
   delimiter: ''
 }
 
-const TO_SELECT = ({ key, value, label, rate }) => ({ key, label, value, displayValue: true, rate })
+const TO_SELECT = item => ({ ...item, displayValue: true })
 
 const MoneyView = () => {
   const {
@@ -52,6 +56,7 @@ const MoneyView = () => {
   const pickerToRef = useRef()
   const [initialValue, setInitialValue] = useState('0.00')
   const [finalValue, setFinalValue] = useState('0.00')
+  const [date, setDate] = useState()
   const [rates, setRates] = useState([])
   const toggleExchanges = useCallback(() => {
     const from = exchangeFrom
@@ -59,6 +64,10 @@ const MoneyView = () => {
 
     setExchangeFrom(to)
     setExchangeTo(from)
+  })
+
+  const saveToClipboard = useCallback(() => {
+    Clipboard.setString(parseFloat(finalValue).toFixed(2))
   })
 
   useEffect(() => {
@@ -95,6 +104,7 @@ const MoneyView = () => {
       return _.map(_.orderBy(ratesArray, ['name']), TO_SELECT)
     })
     .then(rates => setRates(rates))
+    .then(() => setDate(new Date()))
   }, [exchangeFrom])
 
   return !loading && !_.isEmpty(rates) ? (
@@ -135,22 +145,23 @@ const MoneyView = () => {
             items={rates}
             useNativeAndroidPickerStyle={false}
           />
-          <TextInputMask
+          <TextMask
             type="money"
-            editable={false}
             value={addZeroes(finalValue)}
             style={styles.input}
             options={MASK_OPTIONS}
+            onLongPress={saveToClipboard}
           />
         </View>
       </View>
+      {_.isDate(date) && <Text style={styles.info}>Cotação de {FORMAT_DATE(date)}</Text>}
     </View>
   ) : <ActivityIndicator size="large" color="#0000ff" />
 }
 
 const styles = StyleSheet.create({
   form: {
-    height: '40%',
+    height: '60%',
     justifyContent: 'space-between'
   },
   converterTitle: {
@@ -169,6 +180,11 @@ const styles = StyleSheet.create({
     paddingVertical: 10,
     color: '#000',
     fontFamily: 'Gilroy'
+  },
+  info: {
+    marginTop: 40,
+    fontFamily: 'Gilroy',
+    fontSize: 18,
   }
 });
 

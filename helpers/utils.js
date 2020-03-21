@@ -6,3 +6,5 @@ export const addZeroes = num => {
   }
   return value;
 }
+
+export const strPad = n => String("0" + n).slice(-2)

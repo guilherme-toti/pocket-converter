@@ -6,7 +6,7 @@
  * @flow
  */
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import {
   View,
   SafeAreaView,
@@ -16,6 +16,7 @@ import {
   Keyboard,
   TouchableWithoutFeedback
 } from 'react-native';
+import SplashScreen from 'react-native-splash-screen'
 
 import { PreferencesContextProvider } from './context/preferences'
 
@@ -26,6 +27,10 @@ import { PreferencesContextProvider } from './context/preferences'
 import MoneyView from './views/money'
 
 const App = () => {
+  useEffect(() => {
+    SplashScreen.hide()
+  }, [])
+
   return (
     <PreferencesContextProvider>
       <SafeAreaView style={styles.view}>

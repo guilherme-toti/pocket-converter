@@ -57,3 +57,7 @@ buck-out/
 
 # CocoaPods
 /ios/Pods/
+
+# Password and keystore
+android/gradle.properties
+android/app/pocket-converter.keystore
