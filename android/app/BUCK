@@ -35,12 +35,12 @@ android_library(
 
 android_build_config(
     name = "build_config",
-    package = "com.multiconversor",
+    package = "com.totipocketconverter",
 )
 
 android_resource(
     name = "res",
-    package = "com.multiconversor",
+    package = "com.totipocketconverter",
     res = "src/main/res",
 )
 
