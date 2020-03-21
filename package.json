@@ -10,6 +10,8 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@react-native-community/async-storage": "^1.8.1",
+    "lodash": "^4.17.15",
     "react": "16.9.0",
     "react-native": "0.61.5",
     "react-native-masked-text": "^1.13.0",
