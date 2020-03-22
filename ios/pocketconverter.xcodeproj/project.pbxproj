@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* multiconversorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* multiconversorTests.m */; };
-		0DDFD5A03F15C157FEACBA8D /* libPods-multiconversor-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD5BFA974DF83645575145A4 /* libPods-multiconversor-tvOSTests.a */; };
+		00E356F31AD99517003FC87E /* pocketconverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* pocketconverterTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		1EFA067B7C2F52763AE68204 /* libPods-multiconversor-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D193442D32E26E1E39D6E427 /* libPods-multiconversor-tvOS.a */; };
+		1DE23FCBD01692707F2FE515 /* libPods-pocketconverterTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83549F24EDEDC2C600360C80 /* libPods-pocketconverterTests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* multiconversorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* multiconversorTests.m */; };
-		8DCCFD8B3A1A48C784DD0DC1 /* Gilroy-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC64AF401C9D4BB1A9383BB8 /* Gilroy-Light.otf */; };
-		A3F9CBE552B248C5B427471F /* Gilroy-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 738EDE33523D4258BDC248B1 /* Gilroy-ExtraBold.otf */; };
-		EA95B8E3CDAE6EC390DAD686 /* libPods-multiconversor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA2EDA1A71228B27BD651DA /* libPods-multiconversor.a */; };
-		F1083E9EF5FB8659E6E7537A /* libPods-multiconversorTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA217FB411AD9ED2E5156F4 /* libPods-multiconversorTests.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* pocketconverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* pocketconverterTests.m */; };
+		40A4B399AE93D1EC070F960F /* libPods-pocketconverter-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED895AE72DF41926F7155FEA /* libPods-pocketconverter-tvOSTests.a */; };
+		B51983F187EE54907795D8F8 /* libPods-pocketconverter-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9DBD84B1334D56DE65822C /* libPods-pocketconverter-tvOS.a */; };
+		D5A0D3C435B769671E31268C /* libPods-pocketconverter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C2AA3D4558A733C68423582 /* libPods-pocketconverter.a */; };
+		AB8D1E9226A847FFA71576AA /* Gilroy-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 38E7C3EDBE634661B35556FD /* Gilroy-ExtraBold.otf */; };
+		72DD460F1DA3415E8D9115D3 /* Gilroy-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9EF3FB6B22224833A57E52FB /* Gilroy-Light.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,47 +30,47 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = multiconversor;
+			remoteInfo = pocketconverter;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "multiconversor-tvOS";
+			remoteInfo = "pocketconverter-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* multiconversorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = multiconversorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* pocketconverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pocketconverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* multiconversorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = multiconversorTests.m; sourceTree = "<group>"; };
-		1009E385191C685CF4089486 /* Pods-multiconversor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-multiconversor.release.xcconfig"; path = "Target Support Files/Pods-multiconversor/Pods-multiconversor.release.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* Pocket Conversor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pocket Conversor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = multiconversor/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = multiconversor/AppDelegate.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* pocketconverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pocketconverterTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* pocketconverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pocketconverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = pocketconverter/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = pocketconverter/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = multiconversor/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = multiconversor/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = multiconversor/main.m; sourceTree = "<group>"; };
-		1F1F20C182AD34E8484F457B /* Pods-multiconversorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-multiconversorTests.debug.xcconfig"; path = "Target Support Files/Pods-multiconversorTests/Pods-multiconversorTests.debug.xcconfig"; sourceTree = "<group>"; };
-		2C3CDAF653C7BA844EC80532 /* Pods-multiconversorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-multiconversorTests.release.xcconfig"; path = "Target Support Files/Pods-multiconversorTests/Pods-multiconversorTests.release.xcconfig"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* multiconversor-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "multiconversor-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* multiconversor-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "multiconversor-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		607CD5AB443885637D356E7D /* Pods-multiconversor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-multiconversor.debug.xcconfig"; path = "Target Support Files/Pods-multiconversor/Pods-multiconversor.debug.xcconfig"; sourceTree = "<group>"; };
-		738EDE33523D4258BDC248B1 /* Gilroy-ExtraBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gilroy-ExtraBold.otf"; path = "../assets/fonts/Gilroy-ExtraBold.otf"; sourceTree = "<group>"; };
-		760623B1D4CB15BBB16183F5 /* Pods-multiconversor-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-multiconversor-tvOS.release.xcconfig"; path = "Target Support Files/Pods-multiconversor-tvOS/Pods-multiconversor-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		95F49349897C56FD8D0B2BBB /* Pods-multiconversor-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-multiconversor-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-multiconversor-tvOSTests/Pods-multiconversor-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		ABA217FB411AD9ED2E5156F4 /* libPods-multiconversorTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-multiconversorTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B57A563E9243463EEBB8CCFD /* Pods-multiconversor-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-multiconversor-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-multiconversor-tvOSTests/Pods-multiconversor-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		BD5BFA974DF83645575145A4 /* libPods-multiconversor-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-multiconversor-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBA2EDA1A71228B27BD651DA /* libPods-multiconversor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-multiconversor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF97F6FB29C6BA1718220D06 /* Pods-multiconversor-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-multiconversor-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-multiconversor-tvOS/Pods-multiconversor-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		D193442D32E26E1E39D6E427 /* libPods-multiconversor-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-multiconversor-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC64AF401C9D4BB1A9383BB8 /* Gilroy-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gilroy-Light.otf"; path = "../assets/fonts/Gilroy-Light.otf"; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = pocketconverter/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = pocketconverter/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = pocketconverter/main.m; sourceTree = "<group>"; };
+		2AD429855687C044078ECA42 /* Pods-pocketconverter-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pocketconverter-tvOS.release.xcconfig"; path = "Target Support Files/Pods-pocketconverter-tvOS/Pods-pocketconverter-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* pocketconverter-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pocketconverter-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* pocketconverter-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pocketconverter-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		702964375FFCFF3773CE2E9A /* Pods-pocketconverter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pocketconverter.release.xcconfig"; path = "Target Support Files/Pods-pocketconverter/Pods-pocketconverter.release.xcconfig"; sourceTree = "<group>"; };
+		76D6389FEDC203E5868F5F7F /* Pods-pocketconverter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pocketconverter.debug.xcconfig"; path = "Target Support Files/Pods-pocketconverter/Pods-pocketconverter.debug.xcconfig"; sourceTree = "<group>"; };
+		7B8FF8684218E1C9CCA705A9 /* Pods-pocketconverter-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pocketconverter-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-pocketconverter-tvOSTests/Pods-pocketconverter-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		83549F24EDEDC2C600360C80 /* libPods-pocketconverterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-pocketconverterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E736C233E813FF854B54672 /* Pods-pocketconverter-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pocketconverter-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-pocketconverter-tvOS/Pods-pocketconverter-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		9C2AA3D4558A733C68423582 /* libPods-pocketconverter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-pocketconverter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC9DBD84B1334D56DE65822C /* libPods-pocketconverter-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-pocketconverter-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E07563AA8D6C4049263E1EA7 /* Pods-pocketconverterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pocketconverterTests.debug.xcconfig"; path = "Target Support Files/Pods-pocketconverterTests/Pods-pocketconverterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E98EFB821B344A0F8E0DFC6F /* Pods-pocketconverterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pocketconverterTests.release.xcconfig"; path = "Target Support Files/Pods-pocketconverterTests/Pods-pocketconverterTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		ED895AE72DF41926F7155FEA /* libPods-pocketconverter-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-pocketconverter-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F81BE4CD2E8A8D7E2E1697CD /* Pods-pocketconverter-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pocketconverter-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-pocketconverter-tvOSTests/Pods-pocketconverter-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		38E7C3EDBE634661B35556FD /* Gilroy-ExtraBold.otf */ = {isa = PBXFileReference; name = "Gilroy-ExtraBold.otf"; path = "../assets/fonts/Gilroy-ExtraBold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9EF3FB6B22224833A57E52FB /* Gilroy-Light.otf */ = {isa = PBXFileReference; name = "Gilroy-Light.otf"; path = "../assets/fonts/Gilroy-Light.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1083E9EF5FB8659E6E7537A /* libPods-multiconversorTests.a in Frameworks */,
+				1DE23FCBD01692707F2FE515 /* libPods-pocketconverterTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA95B8E3CDAE6EC390DAD686 /* libPods-multiconversor.a in Frameworks */,
+				D5A0D3C435B769671E31268C /* libPods-pocketconverter.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EFA067B7C2F52763AE68204 /* libPods-multiconversor-tvOS.a in Frameworks */,
+				B51983F187EE54907795D8F8 /* libPods-pocketconverter-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,20 +102,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DDFD5A03F15C157FEACBA8D /* libPods-multiconversor-tvOSTests.a in Frameworks */,
+				40A4B399AE93D1EC070F960F /* libPods-pocketconverter-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* multiconversorTests */ = {
+		00E356EF1AD99517003FC87E /* pocketconverterTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* multiconversorTests.m */,
+				00E356F21AD99517003FC87E /* pocketconverterTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = multiconversorTests;
+			path = pocketconverterTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -126,7 +126,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* multiconversor */ = {
+		13B07FAE1A68108700A75B9A /* pocketconverter */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -137,7 +137,23 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = multiconversor;
+			name = pocketconverter;
+			sourceTree = "<group>";
+		};
+		222F609A529DEC0A703EA876 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76D6389FEDC203E5868F5F7F /* Pods-pocketconverter.debug.xcconfig */,
+				702964375FFCFF3773CE2E9A /* Pods-pocketconverter.release.xcconfig */,
+				8E736C233E813FF854B54672 /* Pods-pocketconverter-tvOS.debug.xcconfig */,
+				2AD429855687C044078ECA42 /* Pods-pocketconverter-tvOS.release.xcconfig */,
+				7B8FF8684218E1C9CCA705A9 /* Pods-pocketconverter-tvOSTests.debug.xcconfig */,
+				F81BE4CD2E8A8D7E2E1697CD /* Pods-pocketconverter-tvOSTests.release.xcconfig */,
+				E07563AA8D6C4049263E1EA7 /* Pods-pocketconverterTests.debug.xcconfig */,
+				E98EFB821B344A0F8E0DFC6F /* Pods-pocketconverterTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -145,10 +161,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				CBA2EDA1A71228B27BD651DA /* libPods-multiconversor.a */,
-				D193442D32E26E1E39D6E427 /* libPods-multiconversor-tvOS.a */,
-				BD5BFA974DF83645575145A4 /* libPods-multiconversor-tvOSTests.a */,
-				ABA217FB411AD9ED2E5156F4 /* libPods-multiconversorTests.a */,
+				9C2AA3D4558A733C68423582 /* libPods-pocketconverter.a */,
+				AC9DBD84B1334D56DE65822C /* libPods-pocketconverter-tvOS.a */,
+				ED895AE72DF41926F7155FEA /* libPods-pocketconverter-tvOSTests.a */,
+				83549F24EDEDC2C600360C80 /* libPods-pocketconverterTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -163,13 +179,13 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* multiconversor */,
+				13B07FAE1A68108700A75B9A /* pocketconverter */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* multiconversorTests */,
+				00E356EF1AD99517003FC87E /* pocketconverterTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				ECEEAF65DE35636C70D53045 /* Pods */,
-				F8AAAA83656F45ECA56DC165 /* Resources */,
+				222F609A529DEC0A703EA876 /* Pods */,
+				4EC559EE6F7E41AB803E1913 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -179,46 +195,32 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* Pocket Conversor.app */,
-				00E356EE1AD99517003FC87E /* multiconversorTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* multiconversor-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* multiconversor-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* pocketconverter.app */,
+				00E356EE1AD99517003FC87E /* pocketconverterTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* pocketconverter-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* pocketconverter-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ECEEAF65DE35636C70D53045 /* Pods */ = {
-			isa = PBXGroup;
+		4EC559EE6F7E41AB803E1913 /* Resources */ = {
+			isa = "PBXGroup";
 			children = (
-				607CD5AB443885637D356E7D /* Pods-multiconversor.debug.xcconfig */,
-				1009E385191C685CF4089486 /* Pods-multiconversor.release.xcconfig */,
-				CF97F6FB29C6BA1718220D06 /* Pods-multiconversor-tvOS.debug.xcconfig */,
-				760623B1D4CB15BBB16183F5 /* Pods-multiconversor-tvOS.release.xcconfig */,
-				95F49349897C56FD8D0B2BBB /* Pods-multiconversor-tvOSTests.debug.xcconfig */,
-				B57A563E9243463EEBB8CCFD /* Pods-multiconversor-tvOSTests.release.xcconfig */,
-				1F1F20C182AD34E8484F457B /* Pods-multiconversorTests.debug.xcconfig */,
-				2C3CDAF653C7BA844EC80532 /* Pods-multiconversorTests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		F8AAAA83656F45ECA56DC165 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				738EDE33523D4258BDC248B1 /* Gilroy-ExtraBold.otf */,
-				EC64AF401C9D4BB1A9383BB8 /* Gilroy-Light.otf */,
+				38E7C3EDBE634661B35556FD /* Gilroy-ExtraBold.otf */,
+				9EF3FB6B22224833A57E52FB /* Gilroy-Light.otf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* multiconversorTests */ = {
+		00E356ED1AD99517003FC87E /* pocketconverterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "multiconversorTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "pocketconverterTests" */;
 			buildPhases = (
-				749E325B80F8408F65EE6B38 /* [CP] Check Pods Manifest.lock */,
+				3BFC09897B3BA363CE381E00 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -228,16 +230,16 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = multiconversorTests;
-			productName = multiconversorTests;
-			productReference = 00E356EE1AD99517003FC87E /* multiconversorTests.xctest */;
+			name = pocketconverterTests;
+			productName = pocketconverterTests;
+			productReference = 00E356EE1AD99517003FC87E /* pocketconverterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* multiconversor */ = {
+		13B07F861A680F5B00A75B9A /* pocketconverter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "multiconversor" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "pocketconverter" */;
 			buildPhases = (
-				F246B249F0882FF6DAD2A7B9 /* [CP] Check Pods Manifest.lock */,
+				A859905B8FBAD4A2BE78BD10 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
@@ -248,16 +250,16 @@
 			);
 			dependencies = (
 			);
-			name = multiconversor;
-			productName = multiconversor;
-			productReference = 13B07F961A680F5B00A75B9A /* Pocket Conversor.app */;
+			name = pocketconverter;
+			productName = pocketconverter;
+			productReference = 13B07F961A680F5B00A75B9A /* pocketconverter.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* multiconversor-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* pocketconverter-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "multiconversor-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "pocketconverter-tvOS" */;
 			buildPhases = (
-				4FA3783B0CBC47DF631FDAAF /* [CP] Check Pods Manifest.lock */,
+				9DC19BCD6159906FD3242FFF /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -268,16 +270,16 @@
 			);
 			dependencies = (
 			);
-			name = "multiconversor-tvOS";
-			productName = "multiconversor-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* multiconversor-tvOS.app */;
+			name = "pocketconverter-tvOS";
+			productName = "pocketconverter-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* pocketconverter-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* multiconversor-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* pocketconverter-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "multiconversor-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "pocketconverter-tvOSTests" */;
 			buildPhases = (
-				22849EE1B81DEC02D60CE1EB /* [CP] Check Pods Manifest.lock */,
+				C40D24E66F5DAB50FA066F94 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -287,9 +289,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "multiconversor-tvOSTests";
-			productName = "multiconversor-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* multiconversor-tvOSTests.xctest */;
+			name = "pocketconverter-tvOSTests";
+			productName = "pocketconverter-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* pocketconverter-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -303,11 +305,7 @@
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = J27244UUK7;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
-					};
-					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = J27244UUK7;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -320,12 +318,11 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "multiconversor" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "pocketconverter" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
@@ -334,10 +331,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* multiconversor */,
-				00E356ED1AD99517003FC87E /* multiconversorTests */,
-				2D02E47A1E0B4A5D006451C7 /* multiconversor-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* multiconversor-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* pocketconverter */,
+				00E356ED1AD99517003FC87E /* pocketconverterTests */,
+				2D02E47A1E0B4A5D006451C7 /* pocketconverter-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* pocketconverter-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -356,8 +353,8 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				A3F9CBE552B248C5B427471F /* Gilroy-ExtraBold.otf in Resources */,
-				8DCCFD8B3A1A48C784DD0DC1 /* Gilroy-Light.otf in Resources */,
+				AB8D1E9226A847FFA71576AA /* Gilroy-ExtraBold.otf in Resources */,
+				72DD460F1DA3415E8D9115D3 /* Gilroy-Light.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,28 +390,6 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		22849EE1B81DEC02D60CE1EB /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-multiconversor-tvOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -429,7 +404,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		4FA3783B0CBC47DF631FDAAF /* [CP] Check Pods Manifest.lock */ = {
+		3BFC09897B3BA363CE381E00 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -444,14 +419,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-multiconversor-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-pocketconverterTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		749E325B80F8408F65EE6B38 /* [CP] Check Pods Manifest.lock */ = {
+		9DC19BCD6159906FD3242FFF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -466,14 +441,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-multiconversorTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-pocketconverter-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F246B249F0882FF6DAD2A7B9 /* [CP] Check Pods Manifest.lock */ = {
+		A859905B8FBAD4A2BE78BD10 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -488,7 +463,29 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-multiconversor-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-pocketconverter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C40D24E66F5DAB50FA066F94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pocketconverter-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -540,7 +537,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* multiconversorTests.m in Sources */,
+				00E356F31AD99517003FC87E /* pocketconverterTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -566,7 +563,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* multiconversorTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* pocketconverterTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -575,12 +572,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* multiconversor */;
+			target = 13B07F861A680F5B00A75B9A /* pocketconverter */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* multiconversor-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* pocketconverter-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -592,7 +589,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = multiconversor;
+			path = pocketconverter;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -600,16 +597,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F1F20C182AD34E8484F457B /* Pods-multiconversorTests.debug.xcconfig */;
+			baseConfigurationReference = E07563AA8D6C4049263E1EA7 /* Pods-pocketconverterTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
-				DEVELOPMENT_TEAM = J27244UUK7;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = multiconversorTests/Info.plist;
+				INFOPLIST_FILE = pocketconverterTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -619,19 +614,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/multiconversor.app/multiconversor";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pocketconverter.app/pocketconverter";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C3CDAF653C7BA844EC80532 /* Pods-multiconversorTests.release.xcconfig */;
+			baseConfigurationReference = E98EFB821B344A0F8E0DFC6F /* Pods-pocketconverterTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = J27244UUK7;
-				INFOPLIST_FILE = multiconversorTests/Info.plist;
+				INFOPLIST_FILE = pocketconverterTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -641,19 +634,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/multiconversor.app/multiconversor";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pocketconverter.app/pocketconverter";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 607CD5AB443885637D356E7D /* Pods-multiconversor.debug.xcconfig */;
+			baseConfigurationReference = 76D6389FEDC203E5868F5F7F /* Pods-pocketconverter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = J27244UUK7;
-				INFOPLIST_FILE = multiconversor/Info.plist;
+				INFOPLIST_FILE = pocketconverter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -661,19 +653,18 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "Pocket Conversor";
+				PRODUCT_NAME = pocketconverter;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1009E385191C685CF4089486 /* Pods-multiconversor.release.xcconfig */;
+			baseConfigurationReference = 702964375FFCFF3773CE2E9A /* Pods-pocketconverter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J27244UUK7;
-				INFOPLIST_FILE = multiconversor/Info.plist;
+				INFOPLIST_FILE = pocketconverter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -681,14 +672,14 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "Pocket Conversor";
+				PRODUCT_NAME = pocketconverter;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF97F6FB29C6BA1718220D06 /* Pods-multiconversor-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 8E736C233E813FF854B54672 /* Pods-pocketconverter-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -697,17 +688,16 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = "";
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "multiconversor-tvOS/Info.plist";
+				INFOPLIST_FILE = "pocketconverter-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.multiconversor-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.pocketconverter-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -717,7 +707,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 760623B1D4CB15BBB16183F5 /* Pods-multiconversor-tvOS.release.xcconfig */;
+			baseConfigurationReference = 2AD429855687C044078ECA42 /* Pods-pocketconverter-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -727,16 +717,15 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = "";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "multiconversor-tvOS/Info.plist";
+				INFOPLIST_FILE = "pocketconverter-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.multiconversor-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.pocketconverter-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -746,7 +735,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95F49349897C56FD8D0B2BBB /* Pods-multiconversor-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 7B8FF8684218E1C9CCA705A9 /* Pods-pocketconverter-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -756,24 +745,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "multiconversor-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "pocketconverter-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.multiconversor-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.pocketconverter-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/multiconversor-tvOS.app/multiconversor-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pocketconverter-tvOS.app/pocketconverter-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B57A563E9243463EEBB8CCFD /* Pods-multiconversor-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = F81BE4CD2E8A8D7E2E1697CD /* Pods-pocketconverter-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -783,17 +772,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "multiconversor-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "pocketconverter-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.multiconversor-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.pocketconverter-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/multiconversor-tvOS.app/multiconversor-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pocketconverter-tvOS.app/pocketconverter-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -900,7 +889,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "multiconversorTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "pocketconverterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -909,7 +898,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "multiconversor" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "pocketconverter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -918,7 +907,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "multiconversor-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "pocketconverter-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -927,7 +916,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "multiconversor-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "pocketconverter-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -936,7 +925,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "multiconversor" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "pocketconverter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
