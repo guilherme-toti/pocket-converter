@@ -26,7 +26,7 @@ import { PreferencesContextProvider } from './context/preferences'
 
 import MoneyView from './views/money'
 
-const App = () => {
+const App: React.FC = () => {
   useEffect(() => {
     SplashScreen.hide()
   }, [])

@@ -16,7 +16,7 @@ import { addZeroes, strPad } from '../helpers/utils'
 import { CURRENCY_LABEL } from '../const/labels'
 import Arrows from '../assets/icons/arrows.svg'
 
-const FORMAT_DATE = date => `${strPad(date.getDate())}/${strPad(date.getMonth() + 1)}/${date.getFullYear()} às ${strPad(date.getHours())}:${strPad(date.getMinutes())}`
+const FORMAT_DATE = (date: Date) => `${strPad(date.getDate())}/${strPad(date.getMonth() + 1)}/${date.getFullYear()} às ${strPad(date.getHours())}:${strPad(date.getMinutes())}`
 
 const PICKER_STYLE = {
   viewContainer: {
@@ -41,7 +41,14 @@ const MASK_OPTIONS = {
   delimiter: ''
 }
 
-const TO_SELECT = item => ({ ...item, displayValue: true })
+interface Item {
+  value: string;
+  label: string;
+  name: string;
+  rate: number;
+}
+
+const TO_SELECT = (item: Item) => ({ ...item, displayValue: true })
 
 const MoneyView = () => {
   const {
@@ -64,14 +71,14 @@ const MoneyView = () => {
 
     setExchangeFrom(to)
     setExchangeTo(from)
-  })
+  }, [exchangeFrom, exchangeTo])
 
   const saveToClipboard = useCallback(() => {
     Clipboard.setString(parseFloat(finalValue).toFixed(2))
-  })
+  }, [finalValue])
 
   useEffect(() => {
-    const rate = _.get(rates.find(r => r.value === exchangeTo), 'rate', 1)
+    const rate = _.get(rates.find((r: any) => r.value === exchangeTo), 'rate', 1)
     const rawValue = valueRef.current && valueRef.current.getRawValue() || 0
 
     setFinalValue(`${(rawValue * rate) || '0.00'}`)
@@ -81,7 +88,7 @@ const MoneyView = () => {
     fetch(`https://api.exchangeratesapi.io/latest?base=${exchangeFrom}`)
     .then(res => res.json())
     .then(res => {
-      let ratesArray = []
+      let ratesArray: any[] = []
 
       // Workaround due to issue on API
       // When you pass EUR as parameter
