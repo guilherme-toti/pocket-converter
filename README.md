@@ -2,7 +2,12 @@
 
 An open source React Native app published at Google Play Store and Apple App Store.
 
-This app is SVG-ready and it uses React Hooks and React Context API.
+- SVG-ready
+- React Hooks
+- React Context
+- Async Storage
+- i18n Internationalization
+- Ready to publish on both Google and Apple store
 
 ## Getting Started
 
@@ -48,9 +53,9 @@ Make changes on your `gradle.properties` file based on your .keystore file
 
 **_(If you have NO IDEA about what is a .keystore file or don't want to release "production" version right now, dont change the values)_**
 
-```
-Open ./android/gradle.properties on your prefered editor and change the values of:
+Open `./android/gradle.properties` on your prefered editor and change the values of:
 
+```
 MYAPP_UPLOAD_STORE_FILE=your.keystore
 MYAPP_UPLOAD_KEY_ALIAS=your-alias
 MYAPP_UPLOAD_STORE_PASSWORD=your-password
@@ -98,9 +103,9 @@ $ mv my-upload-key.keystore android/app
 
 Make changes on `gadle.properties` based on your `.keystore` file
 
-```
-Open ./android/gradle.properties on your prefered editor and change the values of:
+Open `./android/gradle.properties` on your prefered editor and change the values of:
 
+```
 MYAPP_UPLOAD_STORE_FILE=your.keystore
 MYAPP_UPLOAD_KEY_ALIAS=your-alias
 MYAPP_UPLOAD_STORE_PASSWORD=your-password
