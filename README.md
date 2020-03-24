@@ -2,11 +2,16 @@
 
 An open source React Native app published at Google Play Store and Apple App Store.
 
+## Check it on stores
+
+[![alt text](./app-store.png "Download on App Store")](https://apps.apple.com/app/pocket-converter/id1504100849?ls=1) [![alt text](./play-store.png "Download on Play Store")](#waiting-approval)
+
+## This project is:
 - SVG-ready
-- React Hooks
-- React Context
-- Async Storage
-- i18n Internationalization
+- Using React Hooks
+- Using React Context
+- Using Async Storage
+- Using i18n Internationalization
 - Ready to publish on both Google and Apple store
 
 ## Getting Started
