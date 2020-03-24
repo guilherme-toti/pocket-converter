@@ -120,7 +120,8 @@ The generated AAB can be found under `android/app/build/outputs/bundle/release/a
 
 ### iOS
 
-Still working on it...
+Follow [this guide](https://readybytes.in/blog/how-to-deploy-a-react-native-ios-app-on-the-app-store).
+This is the way I published it!
 
 ## Author
 
