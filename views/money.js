@@ -11,12 +11,13 @@ import _ from 'lodash'
 import { TextInputMask, TextMask } from 'react-native-masked-text'
 import RNPickerSelect from 'react-native-picker-select'
 
+import { translate } from '../locales'
 import { usePreferencesContext } from '../context/preferences'
 import { addZeroes, strPad } from '../helpers/utils'
 import { CURRENCY_LABEL } from '../const/labels'
 import Arrows from '../assets/icons/arrows.svg'
 
-const FORMAT_DATE = date => `${strPad(date.getDate())}/${strPad(date.getMonth() + 1)}/${date.getFullYear()} às ${strPad(date.getHours())}:${strPad(date.getMinutes())}`
+const FORMAT_DATE = date => `${strPad(date.getDate())}/${strPad(date.getMonth() + 1)}/${date.getFullYear()} ${strPad(date.getHours())}:${strPad(date.getMinutes())}`
 
 const PICKER_STYLE = {
   viewContainer: {
@@ -154,7 +155,7 @@ const MoneyView = () => {
           />
         </View>
       </View>
-      {_.isDate(date) && <Text style={styles.info}>Cotação de {FORMAT_DATE(date)}</Text>}
+      {_.isDate(date) && <Text style={styles.info}>{translate('updated_at')} {FORMAT_DATE(date)}</Text>}
     </View>
   ) : <ActivityIndicator size="large" color="#0000ff" />
 }
@@ -184,7 +185,7 @@ const styles = StyleSheet.create({
   info: {
     marginTop: 40,
     fontFamily: 'Gilroy',
-    fontSize: 18,
+    fontSize: 16,
   }
 });
 

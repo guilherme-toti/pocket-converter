@@ -18,6 +18,7 @@ import {
 } from 'react-native';
 import SplashScreen from 'react-native-splash-screen'
 
+import { translate } from './locales'
 import { PreferencesContextProvider } from './context/preferences'
 
 // import MoneyActive from './assets/icons/money-active.svg'
@@ -38,8 +39,8 @@ const App = () => {
           <TouchableWithoutFeedback onPress={Keyboard.dismiss} accessible={false}>
             <View style={styles.container}>
               <View>
-                <Text style={styles.title}>Conversor de</Text>
-                <Text style={{ ...styles.title, ...styles.heavier }}>Moeda</Text>
+                <Text style={styles.title}>{translate('title')}</Text>
+                <Text style={{ ...styles.title, ...styles.heavier }}>{translate('subtitle')}</Text>
               </View>
               <MoneyView />
             </View>
