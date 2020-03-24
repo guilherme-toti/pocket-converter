@@ -67,7 +67,7 @@ MYAPP_UPLOAD_STORE_PASSWORD=your-password
 MYAPP_UPLOAD_KEY_PASSWORD=your-password
 ```
 
-Run the app:
+### Run the app:
 
 ```
 Android
