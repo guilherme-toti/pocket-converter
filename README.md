@@ -4,7 +4,7 @@ An open source React Native app published at Google Play Store and Apple App Sto
 
 ## Check it on stores
 
-[![alt text](./app-store.png "Download on App Store")](https://apps.apple.com/app/pocket-converter/id1504100849?ls=1) [![alt text](./play-store.png "Download on Play Store")](#waiting-approval)
+[![alt text](./app-store.png "Download on App Store")](https://apps.apple.com/app/pocket-converter/id1504100849?ls=1) [![alt text](./play-store.png "Download on Play Store")](https://play.google.com/store/apps/details?id=com.totipocketconverter)
 
 ## This project is:
 - SVG-ready
